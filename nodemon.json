@@ -1,0 +1,6 @@
+{
+    "ignore": [".vscode", "logs", "docs", "dist", "public", "node_modules", ".git", "**/*/.spec.ts", "src"],
+    "watch": ["api", ".env", "server.js"],
+    "exec": "node --trace-uncaught -r dotenv/config server.js",
+    "ext": "js"
+}
